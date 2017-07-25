@@ -1,0 +1,120 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+
+body {
+      background-image: url("bg.jpg");
+      font-family: Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      padding: 5px 50px 30px;
+      font-size: 10pt;
+}
+body > div {
+
+      border: solid 2px #ffd24a;
+      background-color: white;
+      width: 85%;
+      margin: auto;
+
+}
+
+h2 {
+
+      color: #1fabe5;
+}
+nav a {
+  border: solid 1pt white;
+  border-spacing: 1px;
+  padding: 8px 30px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+
+}
+
+section {
+  border-bottom: solid 3pt #dddddd;
+}
+#site_header {
+      background-color: #ff8523;
+      height: 150px;
+      padding-top: 20px;
+      padding-left: 10px;
+
+}
+
+#page_content {
+      padding: 20px 10px;
+}
+
+td img {
+      width: 30%;
+
+}
+
+table {
+      border-collapse: collapse;
+
+}
+
+thead > tr > td {
+
+      border-color: #046c97;
+      background-color: #1fabe5;
+      color: white;
+      padding-left: 10pt;
+
+}
+td {
+      border: solid 2px #1fabe5;
+      padding-left: 10pt;
+      padding: 10pt;
+
+
+}
+
+form {
+      background-color: #eee;
+      border-radius: 5pt;
+      padding: 10pt;
+      line-height: 20px;
+      font-weight: bold;
+
+
+
+}
+
+.name {
+      background-color: #ff8523;
+      border-radius: 5pt;
+      padding: 20px;
+      color: white
+      }
+
+.city_container {
+      margin: 20px 0;
+}
+label {
+      margin-bottom: 10px;
+}
+.name > input {
+      width: 25%;
+      padding: 12px;
+}
+
+.name > label {
+      padding: 10px;
+}
